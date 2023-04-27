@@ -1,0 +1,12 @@
+clear; 
+clc;
+n=10;
+lambda=1;
+d1=lambda/4;
+k=(2*%pi)/lambda;
+theta=0.0001:0.01:2*%pi;
+beta=0;
+psi=k*d1*cos(theta)+beta;
+AF=sin(n.*psi/2)./(n*sin(psi/2));
+polarplot(theta,AF);
+title("output")
