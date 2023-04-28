@@ -1,0 +1,11 @@
+CM 
+CE
+SY lambda=1
+SY D=lambda
+GA	1	50	D/2	0	360	0.001
+GE	0
+GN	-1
+EK
+EX	0	1	1	0	1	0	0	0
+FR	0	0	0	0	300	0
+EN
